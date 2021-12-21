@@ -26,7 +26,7 @@ jobs:
       - uses: actions/checkout@main
         with:
           submodules: true
-      - uses: limhu/gh-action-hugo-deploy@v1.0.1
+      - uses: limhu/gh-action-hugo-deploy@v1.0.0
         with:
           destination_repo: limhu/limhu.github.io
           destination_token: ${{ secrets.Deploy_Token }}
